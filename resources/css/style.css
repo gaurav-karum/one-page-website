@@ -17,3 +17,74 @@ html{
   max-width: 1140px;
   margin: 0 auto;
 }
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back_1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  margin: 0;
+}
+
+img{
+  position: absolute;
+  height: 50vh;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head-box{
+  position: absolute;
+  width: 50%;
+  height: 40vh;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head-box-text{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto;
+  justify-content: center;
+}
+
+.head-box-text-1{
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+  font-size: calc(1rem + 2vmin); 
+}
+
+.head-box-text-2{
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: calc(1rem + 2vmin);
+}
+
+.head-box hr{
+  width: 20%;
+  text-align: center;
+  margin: 1% auto;
+}
+
+.head-box-btn{
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1% auto;
+}
+
+.head-box-btn-1{
+
+}
+
+.head-box-btn-2{
+
+}
