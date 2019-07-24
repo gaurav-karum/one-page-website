@@ -95,11 +95,13 @@ img{
   text-transform: capitalize;
 }
 
-.head-box hr{
+.hr-text{
   width: 20%;
+  color: black;
   text-align: center;
   margin: 1% auto;
-  background-color: inherit;
+  opacity: 0.5;
+  background: linear-gradient(to right, transparent, #818078, transparent);
 }
 
 .head-box-btn{
